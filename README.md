@@ -105,10 +105,13 @@ git add .
 ```sh
 git commit -m <mensaje>
 ```
+ejemplo 
 
 ```sh
 git commit -m "Agredo el README.md"
 ```
+
+### 
 
 ```sh
 git log
@@ -117,3 +120,12 @@ git log
 ```sh
 git log --oneline
 ```
+
+
+### Pasos para subir mi repo local al remoto
+
+1. git init
+2. git add README.md
+3. git commit -m "first commit"
+4. git remote add origin https://github.com/AngelicaTomala/git-repo-it.git
+5. git push -u origin master
