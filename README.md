@@ -80,3 +80,40 @@ git config user.mail "angetomala@hotmail.es"
 ```sh
 git config --get-regexp user
 ```
+
+### Para saber lo que esta pasando en el WD
+```sh
+git status
+```
+
+## Paso del Working Directory (WD) al index (staged)
+**IMPORTANTE:** Cuidado es case sensitive
+
+### Preparamos el archivo
+
+```sh
+git add <nombreArchivo>
+```
+
+### Preparamos el archivo del WD al index mas de un archivo
+
+```sh
+git add .
+```
+
+### Para pasar del INDEX al Repositorio Local
+```sh
+git commit -m <mensaje>
+```
+
+```sh
+git commit -m "Agredo el README.md"
+```
+
+```sh
+git log
+```
+
+```sh
+git log --oneline
+```
