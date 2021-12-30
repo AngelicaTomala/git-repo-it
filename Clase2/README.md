@@ -17,3 +17,8 @@ git add .
 ```bash
 git commit -m "Agrego carpeta clase2 con README.md"
 ```
+
+## con el git commit solo me abre el editor
+```bash
+git commit
+```
