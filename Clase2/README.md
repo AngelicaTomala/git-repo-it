@@ -22,3 +22,47 @@ git commit -m "Agrego carpeta clase2 con README.md"
 ```bash
 git commit
 ```
+
+## Con el git log muestra todos los commits del mas nuevo al mas viejo
+**NOTA:** Para salir presiona la **q**
+
+```bash
+git log
+```
+
+## Con el git log muestra todos los commits de manera resumida
+
+```bash
+git log --oneline
+```
+
+### Por fecha
+
+```bash
+git log --since="2021-12-28"
+```
+
+```bash
+git log --after="2021-12-28"
+```
+
+```bash
+git log --before="2021-12-28" --oneline
+```
+
+```bash
+git log --after="2021-12-20" --before="2021-12-28" --oneline
+```
+
+## lisa las cantidades de commit que necesito, en este caso los ultimos 2
+```bash
+git log --oneline  -2
+```
+
+```bash
+git log --oneline --decorate --all --graph
+```
+
+```bash
+git push
+```
