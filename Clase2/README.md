@@ -11,3 +11,9 @@ git status
 ```bash
 git add .
 ```
+
+## hago commits de los cambios
+
+```bash
+git commit -m "Agrego carpeta clase2 con README.md"
+```
