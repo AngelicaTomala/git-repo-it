@@ -99,4 +99,30 @@ git remote
 git remote -v
 ```
 
-### GIT KEEP
+#### Lista alias de remotos y url
+```sh
+git remote add <nombreAlias> <url-repo>
+```
+
+#### Renombra el alias de la URL del remoto
+```sh
+git remote rename <nombre-antigio> <nombre nuevo>
+```
+
+#### Borrar remoto
+```sh
+git remote rm <alias-del-remoto>
+```
+
+Ej:
+
+```sh
+git remote rm origin
+```
+
+### Forma corta de hacer un status y ver los cambios en working diretory 
+```sh
+git status --short
+```
+
+## RAMAS (BRANCHES)
