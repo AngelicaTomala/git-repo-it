@@ -26,3 +26,8 @@ Nota cuando nos sale untracked significa que no le hemos dados segui,ientos pro 
 git commit -m "Agrego carpeta y Readme clase3"
 ´´´
 
+## para ver que se hicieron los cambios y ya no hay mas nada para hacer commit 
+´´´sh
+git status
+´´´
+
