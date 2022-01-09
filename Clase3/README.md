@@ -1,6 +1,6 @@
 # clase 03 - GIT
 
-## saber enq ue rama estoy
+## listar rama
 ´´´sh
 git branch
 ´´´
