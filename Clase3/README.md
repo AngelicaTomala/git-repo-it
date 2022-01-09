@@ -75,4 +75,45 @@ git merge --abort
 
 ### crear alias
 
-git config alias.lg "log --oneline --decorate -all --graph"
+´´´sh
+git config alias.lg "log --oneline --decorate --all --graph"
+´´´
+
+nota : como el alias es lg automaticamente se ejecuta el "log --oneline --decorate --all --graph"
+
+´´´sh
+git lg
+´´´
+
+## crear alias l
+´´´sh
+git config alias.l "log --oneline"
+´´´
+
+## ejecutar el alias l
+
+´´´sh
+git l
+´´´
+
+## para ver los alias creados
+
+´´´sh
+git config --get-regexp alias
+´´´
+
+### Para editar el archivo de configuracion de GIT
+
+´´´sh
+git config -e
+´´´
+
+## crear alias s
+´´´sh
+git config alias.s "status --short"
+´´´
+
+## para borrar el alias s
+´´´sh
+git config --unset alias.s
+´´´
