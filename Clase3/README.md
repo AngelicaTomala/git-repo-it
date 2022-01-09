@@ -117,3 +117,14 @@ git config alias.s "status --short"
 ´´´sh
 git config --unset alias.s
 ´´´
+
+## GIt CLONE
+
+creo la carpeta clone
+doy click derecho y selecciono la opcion git bash here
+se abre una ventaje y coloco git clone https://github.com/mlapeducacionit/git-repo-it.git
+automaticamente en esa carpeta se copia todos los documentos de ese repositorio git
+
+si quiero que cree una carpeta lllamada MeCoipieRepo coloco
+ git clone https://github.com/mlapeducacionit/git-repo-it.git ./meCoipieRepo
+ 
