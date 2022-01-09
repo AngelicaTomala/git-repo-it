@@ -1,33 +1,18 @@
-# Clase 03 - GIT
+# clase 03
 
+## saber enq ue rama estoy
+´´´sh
+git branch
+´´´
 
+## Crear una rama
+git branch clase3
 
-###
+## Cambiarme a la nueva rama
+git switch clase3
 
+## para ver los cambios que hemos realizados hacemos
+git status
 
+Nota cuando nos sale untracked significa que no le hemos dados segui,ientos pro lo tanto hay que hacer git add .
 
-### CREO UNA NUEVA RAMA
-
-```sh
-git branch <nuevaRama>
-```
-
-### Cambio entre ramas
-
-```sh
-git switch <nuevaRama>
-```
-
-## GIT MERGE
-
-### Tipos de merge
-
-Fast-Fordward (no hay ningun cambio que se solape con lo que esta en la otra rama)
-
-recursivas- uniones automaticas (no ay coliciones de cambios)
-
-Manual - Conflictos(ocurre cuando hay modificaciones en las mismas lineas)
-
-```sh
-git switch <nuevaRama>
-```
