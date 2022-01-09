@@ -55,3 +55,18 @@ Recursiva - Uniones automaticas (No hay colisiones de cambios)
 
 Manual - Conflictos (ocurre cuando hay modificaciones en las mismas lineas)
 
+Nota: si deseo colocar los cambios de master a clase3 tengo que estar en clase 3 y colocar git merge master
+
+´´´sh
+git merge master
+´´´
+
+## para ver las bifurcaciones
+´´´sh
+git log --oneline --decorate --all --graph
+´´´
+
+## se puede hacer un abort en el caso que no se desea hacer commit
+´´´sh
+git merge --abort
+´´´
