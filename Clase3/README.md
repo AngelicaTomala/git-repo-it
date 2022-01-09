@@ -128,3 +128,9 @@ automaticamente en esa carpeta se copia todos los documentos de ese repositorio 
 si quiero que cree una carpeta lllamada MeCoipieRepo coloco
  git clone https://github.com/mlapeducacionit/git-repo-it.git ./meCoipieRepo
  
+
+ # Fork
+ me permite crear un repo en mi cuenta de cualquier proyecto de GitHub
+1. vamos al repo que queremos hacer el fork. Presionamos el boton.
+2. Se crea el repo en mi cuenta.
+3. Puedo clonar ese repo y empezar a trabajar
