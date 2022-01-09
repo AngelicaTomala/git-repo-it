@@ -70,3 +70,9 @@ git log --oneline --decorate --all --graph
 ´´´sh
 git merge --abort
 ´´´
+
+## Alias
+
+### crear alias
+
+git config alias.lg "log --oneline --decorate -all --graph"
