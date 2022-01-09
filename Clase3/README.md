@@ -134,3 +134,23 @@ si quiero que cree una carpeta lllamada MeCoipieRepo coloco
 1. vamos al repo que queremos hacer el fork. Presionamos el boton.
 2. Se crea el repo en mi cuenta.
 3. Puedo clonar ese repo y empezar a trabajar
+
+## subir una rama local al remoto
+´´´sh
+ git push origin clase3
+ ´´´
+
+# Para actualizar un fork
+Necesito el remoto original del remoto del repo al cual le hice el fork
+
+### agrego el remoto del repositorio original
+´´´sh
+ git push add upstream <urlRemotooriginal>
+ ´´´
+
+ Me traigo los ultimos commits del repo original
+
+´´´sh
+ git pull upstream <urlRemotooriginal>
+ ´´´
+
