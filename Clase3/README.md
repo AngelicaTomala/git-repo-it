@@ -47,4 +47,11 @@ git commit -am "Repaso git branch"
 
 ### tipos de Merge
 
-Fast-Fodward (NO hay ningun cambio que se solape con lo que esta en la otra rama)
+Fast-Fodward (No hay ningun cambio que se solape con lo que esta en la otra rama)
+
+Fast-Fodward - Union automaticas (No hay ningun cambio que se solape con lo que esta en la otra rama)
+
+Recursiva - Uniones automaticas (No hay colisiones de cambios)
+
+Manual - Conflictos (ocurre cuando hay modificaciones en las mismas lineas)
+
