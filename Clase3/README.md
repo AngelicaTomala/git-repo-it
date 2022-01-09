@@ -31,3 +31,20 @@ git commit -m "Agrego carpeta y Readme clase3"
 git status
 ´´´
 
+## para ver todos los commit realizados
+
+´´´sh
+git log --oneline
+´´´
+
+Nota: si realzia un nuevo cambio en la rama clase 3 hacer ya puedo realzir git commit -am
+
+´´´sh
+git commit -am "Repaso git branch"
+´´´
+
+## Git Merge
+
+### tipos de Merge
+
+Fast-Fodward (NO hay ningun cambio que se solape con lo que esta en la otra rama)
