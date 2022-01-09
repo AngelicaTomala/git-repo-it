@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # clase 03 - GIT
 
 ## listar rama
