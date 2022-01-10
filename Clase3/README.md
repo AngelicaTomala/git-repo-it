@@ -141,7 +141,7 @@ si quiero que cree una carpeta lllamada MeCoipieRepo coloco
  ´´´
 
 # Para actualizar un fork
-Necesito el remoto original del remoto del repo al cual le hice el fork
+Necesito el remoto original. Del remoto del repo al cual le hice el fork
 
 ### agrego el remoto del repositorio original
 ´´´sh
@@ -154,3 +154,35 @@ Necesito el remoto original del remoto del repo al cual le hice el fork
  git pull upstream <urlRemotooriginal>
  ´´´
 
+ # PULL
+
+## me traigo todos los cambios que se hayan realizado en mi repositorio
+´´´sh
+ git pull
+ ´´´
+
+# GIT STASH
+Stash es una pila de almacenamiento que proveed GIT. Permite registar temporalmente los cambios del WORKING Directory para seguir trabajando, Cuando hacemos un stash se reestablece el proyecto al ultimo commit
+## para crear un stash, es decir mandar cambios a una area temporal.
+´´´sh
+git stash
+ ´´´
+
+## Para recuoerar el stash
+Lo que hace este comando es recuperar el stash es decir lo saca de stash y lo manda al WORKIG directory y si no hay conflicto borra el stash
+
+´´´sh
+git stash pop
+ ´´´
+
+## para listar los stash
+git stash list
+
+
+ # luego procedo a realizar un pull
+
+# si quiero cargar un stash particular
+git stash apply stash@{0}
+
+# para borrar un stash
+git stash drop stash@{0}
